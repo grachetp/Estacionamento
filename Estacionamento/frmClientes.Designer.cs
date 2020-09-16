@@ -28,6 +28,7 @@
     /// </summary>
     private void InitializeComponent()
     {
+      System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmClientes));
       this.panel1 = new System.Windows.Forms.Panel();
       this.label1 = new System.Windows.Forms.Label();
       this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -189,9 +190,11 @@
       this.Controls.Add(this.btnEditar);
       this.Controls.Add(this.btnNovo);
       this.Controls.Add(this.dgvClientes);
+      this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+      this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
       this.Name = "frmClientes";
       this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-      this.Text = "frmClientes";
+      this.Text = "Estacionamento 24H - Clientes";
       this.Load += new System.EventHandler(this.frmClientes_Load);
       this.panel1.ResumeLayout(false);
       this.panel1.PerformLayout();

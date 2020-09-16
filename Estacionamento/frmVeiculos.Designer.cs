@@ -28,6 +28,7 @@
     /// </summary>
     private void InitializeComponent()
     {
+      System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmVeiculos));
       this.dgvCarros = new System.Windows.Forms.DataGridView();
       this.label1 = new System.Windows.Forms.Label();
       this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -147,9 +148,11 @@
       this.Controls.Add(this.btnEditar);
       this.Controls.Add(this.btnNovo);
       this.Controls.Add(this.panel1);
+      this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+      this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
       this.Name = "frmVeiculos";
       this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-      this.Text = "frmVeiculos";
+      this.Text = "Estacionamento 24H - Veículos";
       ((System.ComponentModel.ISupportInitialize)(this.dgvCarros)).EndInit();
       ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
       this.panel1.ResumeLayout(false);

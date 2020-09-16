@@ -172,3 +172,4 @@ C:\Users\pedro\Desktop\Estacionamento\Estacionamento\bin\Debug\zh-CN\Humanizer.r
 C:\Users\pedro\Desktop\Estacionamento\Estacionamento\bin\Debug\zh-Hans\Humanizer.resources.dll
 C:\Users\pedro\Desktop\Estacionamento\Estacionamento\bin\Debug\zh-Hant\Humanizer.resources.dll
 C:\Users\pedro\Desktop\Estacionamento\Estacionamento\obj\Debug\Estacionamento.exe.config
+C:\Users\pedro\Desktop\Estacionamento\Estacionamento\obj\Debug\Estacionamento.frmRecibos.resources

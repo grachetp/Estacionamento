@@ -49,7 +49,7 @@ namespace Estacionamento
 
     private void btnNovo_Click(object sender, EventArgs e)
     {
-      var form = new frmVeiculo(id);
+      var form = new frmVeiculo(id, false);
       form.ShowDialog();
       if (form.DialogResult == DialogResult.OK)
       {

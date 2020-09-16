@@ -106,8 +106,9 @@ namespace Estacionamento
       var t2 = TimeSpan.Parse(txtCheckout.Text);
       TimeSpan diff = t2 - t1;
       var tempo = diff.Hours * 60 + diff.Minutes;
-      var valor = tempo * 0.075;
-      valor = Math.Round(valor, 1);
+      var valor1 = tempo * 0.075;
+      valor1 = Math.Round(valor1, 1);
+      var valor = valor1.ToString("N2");
       MessageBox.Show($"O valor do seu estacionamento ficou: R$ {valor}", "Valor à Pagar", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
       //finalizar a vaga

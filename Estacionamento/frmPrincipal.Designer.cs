@@ -28,6 +28,7 @@
     /// </summary>
     private void InitializeComponent()
     {
+      System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmPrincipal));
       this.panel3 = new System.Windows.Forms.Panel();
       this.pictureBox1 = new System.Windows.Forms.PictureBox();
       this.label1 = new System.Windows.Forms.Label();
@@ -56,6 +57,7 @@
       this.panel3.Controls.Add(this.pictureBox1);
       this.panel3.Controls.Add(this.label1);
       this.panel3.Location = new System.Drawing.Point(58, 61);
+      this.panel3.MinimumSize = new System.Drawing.Size(1004, 579);
       this.panel3.Name = "panel3";
       this.panel3.Size = new System.Drawing.Size(1004, 579);
       this.panel3.TabIndex = 2;
@@ -193,9 +195,10 @@
       this.ClientSize = new System.Drawing.Size(1264, 681);
       this.Controls.Add(this.panel1);
       this.Controls.Add(this.panel2);
+      this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
       this.Name = "frmPrincipal";
       this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-      this.Text = "frmPrincipal";
+      this.Text = "Estacionamento 24H";
       this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
       this.panel3.ResumeLayout(false);
       this.panel3.PerformLayout();

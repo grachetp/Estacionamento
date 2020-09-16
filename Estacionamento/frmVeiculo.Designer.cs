@@ -28,6 +28,7 @@
     /// </summary>
     private void InitializeComponent()
     {
+      System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmVeiculo));
       this.txtCor = new System.Windows.Forms.TextBox();
       this.label5 = new System.Windows.Forms.Label();
       this.txtMarca = new System.Windows.Forms.TextBox();
@@ -161,9 +162,11 @@
       this.Controls.Add(this.label1);
       this.Controls.Add(this.btnEditar);
       this.Controls.Add(this.btnSalvar);
+      this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+      this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
       this.Name = "frmVeiculo";
       this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-      this.Text = "frmVeiculo";
+      this.Text = "Estacionamento 24H - Veiculo";
       this.ResumeLayout(false);
       this.PerformLayout();
 

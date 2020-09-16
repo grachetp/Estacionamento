@@ -28,6 +28,7 @@
     /// </summary>
     private void InitializeComponent()
     {
+      System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmVaga));
       this.txtCheckout = new System.Windows.Forms.TextBox();
       this.label3 = new System.Windows.Forms.Label();
       this.txtIDCarro = new System.Windows.Forms.TextBox();
@@ -40,8 +41,8 @@
       this.txtNomeCliente = new System.Windows.Forms.TextBox();
       this.label = new System.Windows.Forms.Label();
       this.btnIniciar = new System.Windows.Forms.Button();
-      this.ucCliente = new Estacionamento.ucCliente();
       this.ucVeiculos = new Estacionamento.ucVeiculos();
+      this.ucCliente = new Estacionamento.ucCliente();
       this.SuspendLayout();
       // 
       // txtCheckout
@@ -172,6 +173,15 @@
       this.btnIniciar.UseVisualStyleBackColor = false;
       this.btnIniciar.Click += new System.EventHandler(this.btnIniciar_Click);
       // 
+      // ucVeiculos
+      // 
+      this.ucVeiculos.Location = new System.Drawing.Point(29, 55);
+      this.ucVeiculos.Name = "ucVeiculos";
+      this.ucVeiculos.Size = new System.Drawing.Size(515, 120);
+      this.ucVeiculos.TabIndex = 57;
+      this.ucVeiculos.Visible = false;
+      this.ucVeiculos.VisibleChanged += new System.EventHandler(this.ucVeiculos_VisibleChanged);
+      // 
       // ucCliente
       // 
       this.ucCliente.Location = new System.Drawing.Point(29, 55);
@@ -180,15 +190,6 @@
       this.ucCliente.TabIndex = 56;
       this.ucCliente.Visible = false;
       this.ucCliente.VisibleChanged += new System.EventHandler(this.ucCliente_VisibleChanged);
-      // 
-      // ucVeiculos
-      // 
-      this.ucVeiculos.Location = new System.Drawing.Point(111, 55);
-      this.ucVeiculos.Name = "ucVeiculos";
-      this.ucVeiculos.Size = new System.Drawing.Size(429, 120);
-      this.ucVeiculos.TabIndex = 57;
-      this.ucVeiculos.Visible = false;
-      this.ucVeiculos.VisibleChanged += new System.EventHandler(this.ucVeiculos_VisibleChanged);
       // 
       // frmVaga
       // 
@@ -210,9 +211,11 @@
       this.Controls.Add(this.txtNomeCliente);
       this.Controls.Add(this.label);
       this.Controls.Add(this.btnIniciar);
+      this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+      this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
       this.Name = "frmVaga";
       this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-      this.Text = "frmVaga";
+      this.Text = "Estacionamento 24H - Vaga";
       this.ResumeLayout(false);
       this.PerformLayout();
 

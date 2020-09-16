@@ -38,12 +38,12 @@ namespace Estacionamento
       if (editar == false)
       {
         idDono = ID;
-        txtCor.Enabled = false;
-        txtMarca.Enabled = false;
-        txtModelo.Enabled = false;
-        txtPlaca.Enabled = false;
-        btnSalvar.Enabled = false;
-        btnEditar.Enabled = true;
+        txtCor.Enabled = true;
+        txtMarca.Enabled = true;
+        txtModelo.Enabled = true;
+        txtPlaca.Enabled = true;
+        btnSalvar.Enabled = true;
+        btnEditar.Enabled = false;
       }
       else
       {

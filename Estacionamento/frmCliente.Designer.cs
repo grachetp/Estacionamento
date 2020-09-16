@@ -190,6 +190,7 @@
       this.btnRecibos.Size = new System.Drawing.Size(97, 82);
       this.btnRecibos.TabIndex = 56;
       this.btnRecibos.UseVisualStyleBackColor = false;
+      this.btnRecibos.Click += new System.EventHandler(this.btnRecibos_Click);
       // 
       // label6
       // 
@@ -222,9 +223,10 @@
       this.Controls.Add(this.label3);
       this.Controls.Add(this.label2);
       this.Controls.Add(this.btnSalvar);
+      this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
       this.Name = "frmCliente";
       this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-      this.Text = "FrmCliente";
+      this.Text = "Estacionamento 24H - Cliente";
       this.ResumeLayout(false);
       this.PerformLayout();
 

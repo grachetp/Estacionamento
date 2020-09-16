@@ -155,5 +155,12 @@ namespace Estacionamento
       var form = new frmVeiculos(id);
       form.ShowDialog();
     }
+
+    private void btnRecibos_Click(object sender, EventArgs e)
+    {
+      var id = txtID.Text;
+      var form = new frmRecibos(id);
+      form.ShowDialog();
+    }
   }
 }

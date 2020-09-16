@@ -19,8 +19,8 @@ namespace Estacionamento
       InitializeComponent();
       txtPass.PasswordChar = '*';
       txtUsuario.Focus();
-      txtPass.Text = "123";
-      txtUsuario.Text = "pedro";
+      txtPass.Text = "";
+      txtUsuario.Text = "";
     }
 
     private void btnFechar_Click(object sender, EventArgs e)

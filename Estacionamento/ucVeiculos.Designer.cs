@@ -47,7 +47,7 @@
       this.dgvCarros.RowHeadersVisible = false;
       this.dgvCarros.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
       this.dgvCarros.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-      this.dgvCarros.Size = new System.Drawing.Size(423, 113);
+      this.dgvCarros.Size = new System.Drawing.Size(509, 113);
       this.dgvCarros.TabIndex = 28;
       this.dgvCarros.DoubleClick += new System.EventHandler(this.dgvCarros_DoubleClick);
       // 
@@ -57,7 +57,7 @@
       this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
       this.Controls.Add(this.dgvCarros);
       this.Name = "ucVeiculos";
-      this.Size = new System.Drawing.Size(429, 120);
+      this.Size = new System.Drawing.Size(515, 120);
       ((System.ComponentModel.ISupportInitialize)(this.dgvCarros)).EndInit();
       this.ResumeLayout(false);
 
