@@ -1,8 +1,19 @@
+# Estacionamento 24H
 
-```mermaid
-graph LR
-A[Square Rect] -- Link text --> B((Circle))
-A --> C(Round Rect)
-B --> D{Rhombus}
-C --> D
-```
+### Sistema de um estacionamento informátizado feito em .NET Framework e Windows Forms.
+
+#### Tecnologias Abordadas: 
+
+ - C#
+ - .NET Framework 4.7.x
+ - SQLite 3
+ - OLE DB
+
+#### Módulos do Sistema: 
+- Login (Autenticação)
+- Tela Principal
+- Clientes
+- Veículos
+-  Funcionários
+- Estácionamento
+- Pagementos & Recibos!
