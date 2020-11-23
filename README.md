@@ -6,6 +6,7 @@
 
  - C#
  - .NET Framework 4.7.x
+ - Windows Forms
  - SQLite 3
  - OLE DB
 
